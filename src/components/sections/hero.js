@@ -26,8 +26,28 @@ const StyledHeroSection = styled.section`
     padding-top: var(--nav-height);
   }
 
-  @media (max-width: 768px) {
-    padding-top: var(--nav-height); /* Add top padding to prevent header overlap */
+  @media (max-width: 360px) {
+    padding-top: var(--nav-height);
+  }
+
+  @media (min-width: 361px) and (max-width: 425px) {
+    padding-top: 550px; /* Add top padding to prevent header overlap */
+  }
+
+  @media (min-width: 425px) and (max-width: 525px) {
+    padding-top: 570px; /* Add top padding to prevent header overlap */
+  }
+
+  @media (min-width: 525px) and (max-width: 600px) {
+    padding-top: 600px; /* Add top padding to prevent header overlap */
+  }
+
+  @media (min-width: 600px) and (max-width: 660px) {
+    padding-top: 650px; /* Add top padding to prevent header overlap */
+  }
+
+  @media (min-width: 660px) and (max-width: 700px) {
+    padding-top: 700px; /* Add top padding to prevent header overlap */
   }
 
   h1 {
@@ -135,13 +155,16 @@ const Hero = () => {
     </h2>
   );
 
-  const three = <h3><Type /></h3>;
+  const three = (
+    <h3>
+      <Type />
+    </h3>
+  );
   const four = (
     <>
       <p>
-        I’m a cybersecurity engineer specializing in securing cloud infrastructure with a decent 
-        knowledge of programming. Currently, I’m focused on researching the security of AWS cloud 
-        at{' '}
+        I’m a cybersecurity engineer specializing in securing cloud infrastructure with a decent
+        knowledge of programming. Currently, I’m focused on researching the security of AWS cloud at{' '}
         <a href="https://cloudsecurity.club/" target="_blank" rel="noreferrer">
           Cloud Security Club
         </a>
@@ -159,7 +182,7 @@ const Hero = () => {
     </a>
   );
 
-  const items = [one, two, three, four, five]; 
+  const items = [one, two, three, four, five];
 
   return (
     <StyledHeroSection>
@@ -180,7 +203,7 @@ const Hero = () => {
         </TransitionGroup>
       )}
       <div className={`image-wrapper ${isImageVisible ? 'image-visible' : ''}`}>
-        <img src={require('./home.png').default} alt="Description of your image" />
+        <img src={require('./home.png').default} alt="Description" />
       </div>
     </StyledHeroSection>
   );

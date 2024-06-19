@@ -206,7 +206,11 @@ const Nav = ({ isHome }) => {
   );
 
   const ResumeLink = (
-    <a className="resume-button" href="./pawan_gambhir_resume.pdf" target="_blank" rel="noopener noreferrer">
+    <a
+      target="_blank"
+      className="resume-button"
+      href="pawan_gambhir_resume.pdf"
+      rel="noopener noreferrer">
       Resume
     </a>
   );
@@ -227,7 +231,15 @@ const Nav = ({ isHome }) => {
                     </li>
                   ))}
               </ol>
-              <div>{ResumeLink}</div>
+              <div>
+                <a
+                  target="_blank"
+                  className="resume-button"
+                  href="pawan_gambhir_resume.pdf"
+                  rel="noopener noreferrer">
+                  Resume
+                </a>
+              </div>
             </StyledLinks>
 
             <Menu />
