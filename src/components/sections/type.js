@@ -4,9 +4,9 @@ import styled from "styled-components";
 
 const StyledTypewriter = styled.div`
   .typewriter-text {
-    font-size: 50rem; 
-    font-weight: bold; 
-    color: #333; 
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
   }
 `;
 
@@ -23,7 +23,8 @@ function Type() {
           ],
           autoStart: true,
           loop: true,
-          deleteSpeed: 200,
+          typeSpeed: 14, // Faster typing speed
+          deleteSpeed: 12, // Faster deleting speed
         }}
       />
     </StyledTypewriter>

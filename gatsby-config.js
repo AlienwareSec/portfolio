@@ -4,10 +4,10 @@ module.exports = {
   siteMetadata: {
     title: 'Pawan Gambhir',
     description:
-      'Pawan Gambhir is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://www.pawangambhir.tect', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+      'Pawan Gambhir is a cybersecurity engineer specializing in securing cloud infrastructure with a decent knowledge of programming',
+    siteUrl: 'https://www.pawangambhir.tech', // No trailing slash allowed!
+    image: '/static/og.png', // Path to your image you placed in the 'static' folder
+    twitterUsername: '@PawanGambhir',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
