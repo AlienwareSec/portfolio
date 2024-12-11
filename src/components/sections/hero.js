@@ -164,10 +164,7 @@ const Hero = () => {
     <>
       <p>
         I’m a cybersecurity engineer specializing in securing cloud infrastructure with a decent
-        knowledge of programming. Currently, I’m focused on researching the security of AWS cloud at{' '}
-        <a href="https://cloudsecurity.club/" target="_blank" rel="noreferrer">
-          Cloud Security Club
-        </a>
+        knowledge of programming. Currently, I’m focused on researching the security of AWS cloud and trying my way to pentest into real world like AWS environments
         .
       </p>
     </>
