@@ -3,7 +3,7 @@ date: '2024-06-09'
 title: 'Security Researcher (AWS)'
 company: 'Cloud security club'
 location: 'Remote'
-range: 'June - Present'
+range: 'June - September'
 url: 'https://cloudsecurity.club'
 ---
 
