@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['AWS', 'Kubernetes (K8)', 'Terraform', 'Docker', 'Python', 'Bash', 'BurpSuite', 'Metasploit', 'Nmap', 'Cloud pentesting'];
+  const skills = ['AWS', 'Kubernetes (K8)', 'Terraform', 'Docker', 'Python', 'Bash', 'BurpSuite', 'Metasploit', 'Nmap', 'Cloud pentesting', 'Pacu', 'Prowler'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -146,9 +146,9 @@ const About = () => {
               Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://community.aws/students/">a global AWS community</a>,{' '}
               <a href="https://infosecwriteups.com">an infosec corporation</a>, and{' '}
-              <a href="https://www.linkedin.com/company/open-source-chandigarh/">a student-led club</a>. My main focus these days 
-              is to perform root cause analysis and conducting comprehensive research on AWS cloud as a security researcher 
-              at <a href="https://cloudsecurity.club/">Cloud Security Club</a>.{' '}
+              <a href="https://www.linkedin.com/company/open-source-chandigarh/">a student-led club</a>. Currently focused 
+              on learning and hands-on practice in cloud security and penetration testing, with a strong emphasis 
+              on real-world scenarios, vulnerability assessment, and securing cloud environments.{' '}
             </p>
 
             <p>
